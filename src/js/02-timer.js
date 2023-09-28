@@ -6,7 +6,7 @@ import { Report } from 'notiflix/build/notiflix-report-aio';
 
 
 
-refs = {
+const refs = {
   days: document.querySelector('[data-days]'),
   hours: document.querySelector('[data-hours]'),
   minutes: document.querySelector('[data-minutes]'),
