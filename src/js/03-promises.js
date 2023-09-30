@@ -45,7 +45,7 @@ refs.submitBtn.addEventListener('click', function (ev) {
 
     // ===================================================================
 
-    createPromise(i, del)
+    createPromise(i + 1, del)
       .then(({ position, delay }) => {
         Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
       })
